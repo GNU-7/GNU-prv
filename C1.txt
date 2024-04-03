@@ -1,6 +1,3 @@
-def ver():
-	m = '0.1'
-	return print(m)
 ver ='0.1'
 def C1():
     android_version = random.randint(4, 13)
