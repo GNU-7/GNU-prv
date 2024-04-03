@@ -7,3 +7,5 @@ def C1():
                  ")"+a+f";{ua}"
 
     return user_agent
+def ver():
+    print('0.1') 
