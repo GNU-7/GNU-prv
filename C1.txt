@@ -1,10 +1,6 @@
 ver ='0.1'
-def C1():
-    android_version = random.randint(4, 13)
-    ua = '[FBAN/FB4A;FBAV/85.0.0.15.70;FBBV/33678595;FBDM/{density=1.5,width=540,height=960};FBLC/es_LA;FBCR/TELCEL;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G532M;FBSV/6.0.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/64.0.0.52.76;FBBV/22754145;FBDM/{density=1.5,width=480,height=854};FBLC/es_ES;FBCR/TELCEL GSM;FBMF/alps;FBBD/alps;FBPN/com.facebook.katana;FBDV/M4 SS1060;FBSV/4.2.2;nullFBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/77.0.0.20.66;FBBV/30034644;FBDM/{density=4.0,width=1440,height=2560};FBLC/sv_SE;FBCR/Telia;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G925F;FBSV/6.0.1;FBOP/19;FBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/144.0.0.27.91;FBBV/74024807;FBDM/{density=3.0,width=1080,height=1776};FBLC/en_US;FBRV/74503935;FBCR/Verizon Wireless;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/XT1710-02;FBSV/7.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
-    model_list=random.choice(["A516V","SM-A520F","SM-A520W","SM-A525F","SM-A525M","SM-A526B","SM-A526U","SM-A526U1","SM-A526W","SM-A528B","SM-A530F","SM-A530N","SM-A530W","SM-A536B","SM-A536E","SM-A536U","SM-A536V","SM-A600FN","SM-A600G","SM-A6050","SM-A605F","SM-A605FN","SM-A605G","SM-A605GN","SM-A605K","SM-A6060","SM-A606Y","SM-A7000","SM-A700F","SM-A700FD","SM-A700H","SM-A700YD","SM-A705F","SM-A705FN","SM-A705MN","SM-A707F","SM-A710F","SM-A710M","SM-A715F","SM-A715W","SM-A716B","SM-A716S","SM-A716U","SM-A716U1","SM-A716V","SM-A720F","SM-A725F","SM-A725M","SM-A730F","SM-A736B","SM-A750F","SM-A750FN","SM-A750GN","SM-A805F","SM-A810F","SM-A810S","SM-A810YZ","SM-A826S","SM-A9000","SM-A9080","SM-A908B","SM-A908N","SM-A910F","SM-A920F"])
+def C2():
     a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
-    user_agent = f"Dalvik/2.1.0 (Linux; U; Android {android_version}; {model_list} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}" \
-                 ")"+a+f";{ua}"
-
-    return user_agent
+    b = ";[FBAN/FB4A;FBAV/294.0.0.39.118;FBBV/253340706;FBDM/{density=3.5,width=1440,height=2730};FBLC/en_US;FBRV/253980635;FBCR/Spark NZ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G975F;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
+    ua = a + b
+    return ua
