@@ -1,7 +1,8 @@
 ver ='0.1'
 mozzila ='Mozilla/5.0 (Linux; Android 10; KKG-AN00 Build/HONORKKG-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/386.0.0.35.108;]'
 def C1():
-    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
-    b = ";[FBAN/FB4A;FBAV/450.0.0.42.110;FBBV/563890669;FBDM/{density=1.875,width=720,height=1410};FBLC/en_US;FBRV/567443585;FBCR/Home;FBMF/HMD Global;FBBD/Nokia;FBPN/com.facebook.katana;FBDV/N152DL;FBSV/12;FBOP/19;FBCA/arm64-v8a:;]"
-    ua = a + b
+    a = 'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    c = ";[FBAN/FB4A;FBAV/196.0.0.61;FBBV/555333754;FBDM/{density=2.625,width=1080,height=2131};FBLC/zh_CN;FBRV/688585642;FBCR/ZONG;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A510Y;FBSV/12.1.1;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = a+b+c
     return ua
