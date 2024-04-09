@@ -1,12 +1,12 @@
 ver ='0.1'
 mozzila ='Mozilla/5.0 (Linux; Android 10; KKG-AN00 Build/HONORKKG-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/386.0.0.35.108;]'
-def C2():
+def C1():
     a = 'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/FB4A;FBAV/926.0.0.51.125;FBPN/com.facebook.katana;FBLC/en_US;FBBV/22595847;FBCR/Jazz;FBMF/;FBBD/Infinix;FBDV/Infinix X688B;FBSV/7.1.2;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.0,height=,width=;FB_FW/1;]"
+    c = ";[FBAN/FB4A;FBAV/265.0.0.61.103;FBBV/208173431;FBDM/{density=2.0,width=720,height=1436};FBLC/en_US;FBCR/Djezzy;FBMF/alcatel;FBBD/alcatel;FBPN/com.facebook.katana;FBDV/5033E;FBSV/8.1;nullFBCA/armeabi-v7a:armeabi:;]"
     ua = a+b+c
     return ua
-def C1():
+def C11():
     model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
