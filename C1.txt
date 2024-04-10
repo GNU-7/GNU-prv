@@ -3,7 +3,7 @@ mozzila ='Mozilla/5.0 (Linux; Android 10; KKG-AN00 Build/HONORKKG-AN00; wv) Appl
 def C1():
     a = 'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/FB4A;FBAV/265.0.0.61.103;FBBV/208173431;FBDM/{density=2.0,width=720,height=1436};FBLC/en_US;FBCR/Djezzy;FBMF/alcatel;FBBD/alcatel;FBPN/com.facebook.katana;FBDV/5033E;FBSV/8.1;nullFBCA/armeabi-v7a:armeabi:;]"
+    c = ";[FBAN/FB4A;FBAV/222.0.0.10.118;FBBV/253197554;FBDM/{density=2.625,width=1080,height=1794};FBLC/en_US;FBCR/airtel;FBMF/SHARP;FBBD/SHARP;FBPN/com.facebook.katana;FBDV/SHV45-u;FBSV/9;nullFBCA/arm64-v8a:;]"
     ua = a+b+c
     return ua
 def C11():
