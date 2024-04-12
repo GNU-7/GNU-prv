@@ -6,16 +6,16 @@ def C1():
     c = ";[FBAN/FB4A;FBAV/222.0.0.10.118;FBBV/253197554;FBDM/{density=2.625,width=1080,height=1794};FBLC/en_US;FBCR/airtel;FBMF/SHARP;FBBD/SHARP;FBPN/com.facebook.katana;FBDV/SHV45-u;FBSV/9;nullFBCA/arm64-v8a:;]"
     ua = a+b+c
     return ua
-def C11():
-    model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
+def C1():
+    model = random.choice(["RMX3750","RMX3840","RMX3706","RMX3700","RMX3842","RMX3834"])
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.177'
-    fbbv = "FBBV/58682818;"
-    fblc = "FBLC/en_GB"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0"+".2"+"9.1"+"09'
+    fbbv = "FBBV/58"+"68"+"28"+"18;"
+    fblc = "FBLC/en_"+"GB"
     fbcr = "FBCR/null"
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model
-    fbsv = "FBSV/13"
-    fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
+    fbsv = "FBSV/14"
+    fbdm = "FBDM/{den"+"sity=2."+"75,width=10"+"80,hei"+"ght=19"+"20};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
