@@ -1,2 +1,1 @@
-offhshsbssh 
-sushsh
+SERVER ='ON'
