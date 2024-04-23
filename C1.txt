@@ -1,4 +1,6 @@
 ver ='0.2'
-def u_a():
-	m = random.choice(['Mozilla/5.0 (Linux; Android 12; 2201116SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36','Mozilla/5.0 (iPhone13,2; U; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/15E148 Safari/602.1'])
-	return m
+def X1():
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/196.0.0.50;FBBV/732457642;FBDM/{density=2.0,width=720,height=1459};FBLC/en_HU;FBRV/281631358;FBCR/Magyar Telekom;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/M2004J7BC;FBSV/11.1.1;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = a+b
+    return ua
