@@ -1,6 +1,10 @@
 ver ='0.3'
 def X1():
+    android_version = random.randint(4, 13)
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 4; 9 Build/QP1A.615732.711) [FBAN/FB4A;FBAV/505.0.0.21644;[FBAN/FB4A;FBAV/26.0.0.14160;FBPN/com.facebook.katana;FBLC/ es_MX;FBBV/60773193;FBCR/ Telstra;FBMF/samsung;FBBD/samsung;FBDV/SM-G986U;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=1,width=564,height=3090};FB_FW/8;FBRV/33149584;]Dalvik/2.1.0 (Linux; U; Android 8; v Build/QP1A.590171.986) [FBAN/FB4A;FBAV/553.0.0.238155;[FBAN/FB4A;FBAV/449.0.0.13173;FBPN/com.facebook.katana;FBLC/ id_ID;FBBV/55279562;FBCR/ TELCEL;FBMF/samsung;FBBD/samsung;FBDV/vivo 1920;FBSV/9;FBCA/armeabi-v7a:armeabi;FBDM/{density=4,width=653,height=6267};FB_FW/3;FBRV/62120565;]Dalvik/2.1.0 (Linux; U; Android 8; - Build/QP1A.892952.710) [FBAN/FB4A;FBAV/529.0.0.23476;[FBAN/FB4A;FBAV/237.0.0.27185;FBPN/com.facebook.katana;FBLC/th_TH;FBBV/41783270;FBCR/ PLAY (T-Mobile;FBMF/samsung;FBBD/samsung;FBDV/SM-P413J;FBSV/5;FBCA/armeabi-v7a:armeabi;FBDM/{density=1,width=1220,height=7924};FB_FW/6;FBRV/35806780;]'
+    model_list=random.choice(["A516V","SM-A520F","SM-A520W","SM-A525F","SM-A525M","SM-A526B","SM-A526U","SM-A526U1","SM-A526W","SM-A528B","SM-A530F","SM-A530N","SM-A530W","SM-A536B","SM-A536E","SM-A536U","SM-A536V","SM-A600FN","SM-A600G","SM-A6050","SM-A605F","SM-A605FN","SM-A605G","SM-A605GN","SM-A605K","SM-A6060","SM-A606Y","SM-A7000","SM-A700F","SM-A700FD","SM-A700H","SM-A700YD","SM-A705F","SM-A705FN","SM-A705MN","SM-A707F","SM-A710F","SM-A710M","SM-A715F","SM-A715W","SM-A716B","SM-A716S","SM-A716U","SM-A716U1","SM-A716V","SM-A720F","SM-A725F","SM-A725M","SM-A730F","SM-A736B","SM-A750F","SM-A750FN","SM-A750GN","SM-A805F","SM-A810F","SM-A810S","SM-A810YZ","SM-A826S","SM-A9000","SM-A9080","SM-A908B","SM-A908N","SM-A910F","SM-A920F"])
     a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
-    b = ";[FBAN/FB4A;FBAV/379.0.0.24.109;FBBV/315814638;FBDM/{density=2.625,width=1080,height=2094};FBLC/en_US;FBRV/319788277;FBCR/Vodafone US;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N960F;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]"
-    ua = a + b 
-    return ua
+    user_agent = f"Dalvik/2.1.0 (Linux; U; Android {android_version}; {model_list} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}" \
+                 ")"+a+f";{ua}"
+
+    return user_agent
